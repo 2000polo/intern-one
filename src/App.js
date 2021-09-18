@@ -6,12 +6,12 @@ import './App.css';
 import Icons from "./Components/Icons/Icon";
 import Delightsec from "./Components/Delightsec/Delightsec";
 import Footer from "./Components/Footer/Footer";
-import { HashRouter as Router, Route } from 'react-router-dom';
+// import { HashRouter as Router, Route } from 'react-router-dom';
 
 function App() {
   return (
-    <Router >
-      <Route exact path="/" >
+    // <Router >
+    //   <Route exact path="/" >
     <div className="App">
       <Navbar />
       <Header />
@@ -21,8 +21,8 @@ function App() {
       <Delightsec />
       <Footer />
     </div>
-    </Route>
-    </Router>
+    // </Route>
+    // </Router>
   );
 }
 
