@@ -18,6 +18,7 @@
 
 .nav{
     width: 100%;
+    height: 100%;
     list-style: none;
     display: flex;
     flex-direction: row;
@@ -35,18 +36,61 @@
     width: 100px;
     height: 40px;
     margin-left: 10px;
+    background-color: black;
+    color: white;
+    border: 1px solid black;
 }
 
 .hamburger-menu{
     display: none;
 }
 
+.hmenu-links{
+    position: absolute;
+    top:0;
+    left: 10vw;
+    background-color: white;
+    width: 100%;
+    height: 100vh;
+    display: none;
+}
+
+.close{
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    margin: 5vh 2vw;
+    align-items: flex-end;
+}
+
+.hnav-links{
+    list-style: none;
+    padding-left: 6vw;
+}
+
+.hnav-links li{
+    margin-bottom: 1.5rem;
+}
+
+
+
 @media only screen and (max-width: 700px){
     .hamburger-menu{
         display: block;
+        cursor: pointer;
+    }
+
+    .close{
+        cursor: pointer;
     }
 
     .nav-links{
         display: none;
     }
+
+    .hmenu-links{
+        display: block;
+    }
+
+    
 }

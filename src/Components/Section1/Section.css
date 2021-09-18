@@ -19,11 +19,11 @@
 }
 
 .card-stack{
-    height: 200px;
     width: 435px;
     /* border: 1px solid black; */
     color: black;
     padding: 0 5vw;
+    margin-bottom: 5vh;
 }
 
 .quote{
@@ -45,7 +45,7 @@
   .quote::after {
     /* Add shadow to distinguish sheets from one another */
     /* box-shadow: 2px 1px 1px rgba(0,0,0,0.15); */
-    border: 1px solid black;
+    border: 2px solid black;
   }
   
   .quote::before,

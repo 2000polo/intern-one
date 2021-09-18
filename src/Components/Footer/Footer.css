@@ -1,0 +1,45 @@
+.footer-head{
+    filter: invert(100%);
+}
+
+.footer-main-wrapper{
+    background-color: black;
+    color: white;
+    padding: 5vh 3vw;
+}
+
+.footer-para{
+    margin-bottom: 2rem;
+
+}
+
+.footer-lists{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.footer-list{
+    min-width: 30%;
+    margin-bottom: 1rem;
+    list-style: none;
+}
+
+.list-head{
+    font-weight: 600;
+    margin-bottom: .9rem;
+}
+
+li a{
+    text-decoration: none;
+    color: rgb(148, 148, 148);
+    margin: 3rem 0;
+}
+
+.footer-list li{
+    margin-bottom: .9rem;
+}
+
+.footer-para{
+    color: rgb(148, 148, 148);
+}

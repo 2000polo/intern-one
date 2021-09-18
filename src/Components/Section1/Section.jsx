@@ -17,17 +17,9 @@ const Section = () => {
             </div>
             
             <div className="card-stack">
-                {/* <div className="quote">
-                    Forem provides open-source tools to help you host a thriving, focused, and adaptable community.
-                </div>
-                <div className="card-bg">
-                    
-                </div> */}
                 <div className="quote">
                 Forem provides open-source tools to help you host a thriving, focused, and adaptable community.
                 </div>
-
-            
             </div>
         </div>
     )

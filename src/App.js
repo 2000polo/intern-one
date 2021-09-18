@@ -1,8 +1,11 @@
 import Navbar from "./Components/Navbar/Navbar";
 import Header from "./Components/Header/Header";
 import Section from "./Components/Section1/Section";
-import Section2 from "./Components/Section2/Section2";
+import Structure from "./Components/Structure/Structure";
 import './App.css';
+import Icons from "./Components/Icons/Icon";
+import Delightsec from "./Components/Delightsec/Delightsec";
+import Footer from "./Components/Footer/Footer";
 
 function App() {
   return (
@@ -10,7 +13,10 @@ function App() {
       <Navbar />
       <Header />
       <Section />
-      <Section2 />
+      <Structure />
+      <Icons />
+      <Delightsec />
+      <Footer />
     </div>
   );
 }

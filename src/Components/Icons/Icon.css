@@ -1,0 +1,18 @@
+.icon-wrapper{
+    width: 100vw;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transform: translateY(-30px);
+}
+
+.icons-grid{
+    display: grid;
+    grid-template-columns: repeat(3,minmax(0,1fr));
+    width: 400px;
+    justify-items: center;
+    text-align: center;
+    gap: 2rem;
+}
+

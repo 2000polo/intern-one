@@ -55,16 +55,17 @@
 .btn-grp{
     display: flex;
     flex-direction: column;
-    margin-top: 1.5vh;
+    margin-top: 2vh;
 }
 
 .header-btn{
     height: 45px;
-    border: 1px solid black;
+    border: 2px solid black;
     margin: 1vh 0;
     background-color: black;
     color: white;
     transition: all .3s;
+    font-weight: 600;
 }
 
 .header-btn:hover{

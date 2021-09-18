@@ -1,0 +1,33 @@
+.structure-main-wrapper{
+    height: auto;
+    width: 100vw;
+    color: white;
+    background: radial-gradient(ellipse at 0 50px,#4cfca7 5%,#022830 20%,#022830 88%,#fff 95%);
+    padding: 5vh 4vw 7vh 4vw;
+}
+
+.structure-heading{
+    font-size: 2rem;
+    margin-bottom: .5rem;
+}
+
+.structure-para, .item{
+    font-size: 1.125rem;
+    font-weight: 500;
+
+}
+
+.structure-para{
+    margin-bottom: .7rem;
+}
+
+.structure-list{
+    list-style: none;
+    margin-bottom: 2.5rem;
+}
+
+.item{
+    border-bottom: 1px solid white;
+    padding: .7rem 0;
+    
+}
