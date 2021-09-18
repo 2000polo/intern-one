@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/intern-one/static/css/main.3a7a301c.chunk.css",
+    "main.js": "/intern-one/static/js/main.cc6183ba.chunk.js",
+    "main.js.map": "/intern-one/static/js/main.cc6183ba.chunk.js.map",
+    "runtime-main.js": "/intern-one/static/js/runtime-main.a108e1c0.js",
+    "runtime-main.js.map": "/intern-one/static/js/runtime-main.a108e1c0.js.map",
+    "static/js/2.28600d6d.chunk.js": "/intern-one/static/js/2.28600d6d.chunk.js",
+    "static/js/2.28600d6d.chunk.js.map": "/intern-one/static/js/2.28600d6d.chunk.js.map",
+    "index.html": "/intern-one/index.html",
+    "static/css/main.3a7a301c.chunk.css.map": "/intern-one/static/css/main.3a7a301c.chunk.css.map",
+    "static/js/2.28600d6d.chunk.js.LICENSE.txt": "/intern-one/static/js/2.28600d6d.chunk.js.LICENSE.txt",
+    "static/media/Header.css": "/intern-one/static/media/hero-bg-57850c713b3b6d5f92c9c24f393695ed.57850c71.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.a108e1c0.js",
+    "static/js/2.28600d6d.chunk.js",
+    "static/css/main.3a7a301c.chunk.css",
+    "static/js/main.cc6183ba.chunk.js"
+  ]
+}
